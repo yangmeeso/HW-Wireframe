@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #777;
+	text-align: center;
+	display: block;
+	width: 960px;
+	color: #737373;
+}
+
+header {
+	padding: 40px;
+	margin-bottom: 11px;
+	height: 100px;
+	background-color: #ebebeb;
+}
+
+nav {
+	padding: 40px;
+	margin-bottom: 18px;
+	height: 100px;
+	background-color: #ebebeb;
+}
+
+/* Container for Contents of Section and Aside */
+.wrapper {
+	padding: 10px;
+	padding-bottom: 300px;
+	width: 980px
+}
+
+/* Content Box (Section) on Left */
+#section {
+	background-color: #737373;
+	width: 50%;
+	height: 200px;
+	margin-left: -9px;
+}
+
+#section__section {
+	position: relative;
+	padding: 40px;
+	height: 270px;
+}
+
+/* Content Inner-Box (Article) on Left */
+#section__article {
+	position: absolute;
+	width: 440px;
+	background-color: #737373;
+	color: #cccccc;
+	padding: 20px;
+	height: 170px;
+	margin: -190px 0px 0px 13px;
+	display: block;
+	overflow: inherit;
+}
+
+/* Content Inner-Box (h1 and p) on Left */
+h1 {
+	background-color: #ebebeb;
+	margin: -135px 0px 0px 35px;
+	width: 390px;
+	position: absolute;
+	z-index: 2;
+	padding: 10px;
+}
+
+p {
+	background-color: #ebebeb;
+	margin: -80px 0px 0px 35px;
+	width: 390px;
+	position: absolute;
+	z-index: 2;
+	padding: 10px;
+}
+
+/* Content Box on Right */
+#aside {
+	background-color: #ebebeb;
+	padding: 20px;
+	width: 47%;
+	float: right;
+	height: 270px;
+	position: relative;
+	margin: -200px 11px 0px 0px;
+}
+
+/* Footer on Bottom */
+footer {
+	padding: 8px;
+	margin-top: 10px;
+	background-color: #ebebeb;
+	margin: -205px 0px 0px 1px;
+	width: 960px;
+}
+
+
+
